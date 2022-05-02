@@ -1,0 +1,397 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffffff;
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 10px 15px;
+	color: black;
+}
+.menu li:hover{
+	cursor: default;
+	text-decoration-line: underline;
+}
+.menu img{
+	width: 18%;
+	border-bottom: thick 1px black;
+}
+.menu{
+	font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu .Search{
+	color: black;
+	padding: 0px 5px;
+}
+.menu .Search i{
+	padding-right: 10px;
+	align-items: center;
+}
+.menu .Search input{
+	font-family: 'Montserrat', sans-serif;
+	padding: 7px 10px;
+	color: black;
+	font-size: 16px;
+	border: 2px solid #f2f2f2;
+	box-shadow: 10px 10px 10px #E0E0E0;
+}
+.phan1 hr{
+     margin: 0px 50px;
+	 box-shadow:  0px 5px 8px #bcbcbc;
+}
+.phan2{
+	margin-top: 20px ;
+	background-image: url("phan2.jpg");
+    background-size: cover;
+	background-position:center;
+	padding: 100px 100px;
+	height: 600px; 
+	color: black;
+}
+.phan2 .tieude h1 {
+	padding: 10px 0px;
+	font-size: 120px;
+	color: black;
+}
+.color {
+		color: black;
+}
+.phan2 p{
+	padding:70px 0;
+}
+.phan2 .tieude:hover{
+	cursor: default;
+	text-decoration-line: underline;
+}
+.phannho1{
+	padding: 80px 50px;
+	color: black;
+	margin-top: 20px;
+}
+.phannho1 h1{
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+.cotTran{
+	width: 500px!important;
+}
+.phan4 .cot1{
+	background-color: #ffffff;
+    background-size:contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 500px;
+    height: 250px; 
+	margin-bottom: 0px;
+	color: black;
+	padding: 30px;
+}
+.phan4 .cot1:hover{
+	background-image:url("DIA.jpg");
+}
+.phan4 .cot2{
+	width: auto;
+    height: 250px;
+	margin-bottom: 5px;
+	color:black;
+}
+.phan4 .cot2:hover{
+	background-image: url("em.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.phan4 .cot3{
+	width: 370px;
+    height: 505px;
+	margin-top: 12px ;
+	color:black;
+}
+.phan4 .cot3:hover{
+	background-image: url("th.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.phan4 .cot4{
+	width: auto;
+    height: 250px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color:black;
+}
+.phan4 .cot4:hover{ 
+	background-image: url("DPT4.jpg");
+	background-size: cover;
+	
+	background-position: bottom;
+}
+.phan4 .cot5{
+	width: 500px;
+    height: 250px;
+	color:black;
+}
+.phan4 .cot5:hover{
+	background-image: url("HDA.jpg.png");
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.phan4{
+	display: flex;
+	justify-content: center;
+	border: 3px solid #f6f6f6;
+	padding: 10px;
+	margin: 10px;
+}
+.phan4 h5{
+	font-size: 30px;
+}
+.phan4 p{
+	font-size: 18px;
+}
+.phan4 .row .cot:hover{
+	box-shadow: 10px 10px 10px #c2c2c2;
+}
+.phan4 .row .trang:hover{
+	color: white;	
+}
+.title{
+	font-size: 70px;
+	border-radius: 20px;
+    color: black;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 30px 20px;
+	box-shadow: 10px 10px 10px #c2c2c2
+}
+.phan3{
+	padding-top: 20px;
+	display: inline;
+}
+.phan3 .bentrai img{
+	width: 70%;	
+	float: right;
+	box-shadow: 10px 10px 10px #c2c2c2;	
+}
+.phan3 .benphai {
+    padding-left: 40px !important;
+	padding-top: 150px!important;
+	color:black;
+}
+.title2{
+	font-size: 70px;
+	color:black;
+	padding: 70px 50px;
+	
+}
+.phan5 {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+    color: black;		
+}
+.phan5 img{
+	margin-top: 20px;
+	width: 100%;
+	padding: 0px 30px;
+}
+.phan5 .cot1{
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	margin:0px 60px;
+	width: 300px;
+    height: 480px;
+	box-shadow:  10px 10px 10px #c2c2c2;
+}
+.phan5 .cot2{
+	border-radius: 20px;
+    background-color: #f2f2f2;
+	margin:0px 45px;
+	width: 300px;
+    height: 480px;
+	box-shadow:  10px 10px 10px #c2c2c2;
+}
+.phan5 .cot3{
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	width: 300px;
+	margin-left: 60px;
+    height: 480px;
+	box-shadow:  10px 10px 10px #c2c2c2;
+}
+.phan5 h5{
+	text-align: center;
+	border-radius: 20px;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;	
+}
+.phan5 input{
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-left: 30px;
+	padding: 15px;
+	width: 215px;
+	border: 2px solid black;
+}
+.phan5 input:hover{
+	color: white;
+	background-color: black;
+}
+.phan6 {
+    display: flex	;
+	justify-content: center;
+	padding: 30px;
+    color: black;
+}
+.phan6 img{
+	margin-top: 20px;
+	width: 100%;
+	padding: 0px 30px;
+}
+.phan6 .cot1{
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	margin:0px 30px;
+	width: 350px;
+    height: 550px;
+	box-shadow:  10px 10px 10px #c2c2c2;
+}
+.phan6 .cot2{
+	border-radius: 20px;
+    background-color: #f2f2f2;
+	margin:0px 70px;
+	width: 350px;
+    height: 550px;
+	box-shadow:  10px 10px 10px #c2c2c2;
+}
+.phan6 input{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-left: 30px;
+	margin-top: 7px;
+	padding: 15px;
+	width: 265px;
+	border: 2px solid black;
+}
+.phan6 input:hover{
+	color: white;
+	background-color: black;
+}
+.phan6 h5{
+	text-align: center;
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 10px 0px;
+}	
+.phan8 table select, textarea, input{
+	width: 100%;
+	padding: 13px 80px;
+	box-shadow: 10px 10px 10px #E0E0E0;
+	border: none;
+	border-bottom: 2px solid #000000;
+	border-radius: 10px;
+
+}
+.phan8 tr td {
+	padding: 0px 10px;
+	color: black;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.phan8 {
+	display: inline;
+	margin: 100px;
+}
+.phan8 .bentrai{
+	padding-left: 100px;
+	width: 50%;
+	float: left;
+	display: inline;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 30px;
+	
+}
+.phan8  .input{
+	padding:20px 30px ;
+	width: 30%;
+	margin-left: 210px;
+    font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+/*    background-color: #F2f2f2;*/
+	color: black;
+}
+.phan8 .input input{
+	background-color: white;
+}
+.phan8 .input input:hover{
+	background-color: black;
+	color: #ffffff;
+}
+
+.phan8 img{
+   width: 300px;
+}
+.phan8 .benphai{
+   width: 50%;
+   float: right;
+   display: inline;
+}
+.phan8 .hinh1{
+    float: right;
+	position: absolute;
+	right: 350px;
+    top: 4200px;	
+	z-index: 1;
+	border-bottom-right-radius: 100px !important;
+	border: 6px solid white;
+	border-radius: 20px;
+}
+.phan8 .hinh2{
+    float: right;
+	position: absolute;
+	right: 150px;
+    top: 4400px;
+	border-radius: 20px;
+	clear: both;
+	
+}
+.phan9{
+	width: 100%;
+	height:90px ;
+	background-color: black;
+	margin-top:300px;
+	padding: 20px 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.phan9 .row h5{
+	margin-left: 15px;
+	z-index: 1;
+}
+.phan9 .row{
+	display: flex;
+}
+
+.cotPhai {
+	float: right;
+	line-height: 18px;
+}
